@@ -1,6 +1,6 @@
 # reaper-updater
 
-A small shell script that downloads and installs the latest Linux x86_64 version of [REAPER](https://www.reaper.fm) automatically.
+A small **distro-agnostic shell script** that downloads updates the latest Linux x86_64 version of [REAPER](https://www.reaper.fm) automatically.
 
 Close REAPER. Run the script. Open REAPER. New version. That's the whole workflow.
 
@@ -41,6 +41,8 @@ These need to be installed:
 - `tar`
 - `bash` (the REAPER installer itself needs it)
 - `xdg-user-dirs` (only when using `--archive` without a path, or `--get-only`)
+
+The script itself is **distro-agnostic** (POSIX shell, no package-manager calls). The commands below just show how to install the dependencies under different package managers. Any other distro works too, just install the equivalent packages.
 
 On Debian/Ubuntu/Mint:
 
