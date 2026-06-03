@@ -1,6 +1,6 @@
 # reaper-updater
 
-A small **distro-agnostic shell script** that downloads updates the latest Linux x86_64 version of [REAPER](https://www.reaper.fm) automatically.
+A small **distro-agnostic shell script** that downloads and updates the latest Linux x86_64 version of [REAPER](https://www.reaper.fm) automatically.
 
 Close REAPER. Run the script. Open REAPER. New version. That's the whole workflow.
 
